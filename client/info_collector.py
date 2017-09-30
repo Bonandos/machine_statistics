@@ -19,7 +19,7 @@ if __name__ == '__main__':
     try:
         sock.connect((HOST, PORT))
         print('Sending captured info...')
-        sock.sendall(json.dumps(info),'utf-8'))
+        sock.sendall(json.dumps(info).encode('utf-8'))
     finally:
         print('Exiting...')
         sock.close()
