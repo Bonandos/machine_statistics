@@ -1,2 +1,7 @@
 .vscode/settings.json
 main/__pycache__/server.cpython-36.pyc
+client/public_rsa_key.pem
+main/private_rsa_key.bin
+config/__pycache__/utils.cpython-36.pyc
+config/__pycache__/keys.cpython-36.pyc
+packages/*
