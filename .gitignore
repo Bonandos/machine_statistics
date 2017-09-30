@@ -6,3 +6,4 @@ config/__pycache__/utils.cpython-36.pyc
 config/__pycache__/keys.cpython-36.pyc
 packages/*
 .gitignore
+.DS_Store
