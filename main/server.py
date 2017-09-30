@@ -9,7 +9,7 @@ class ConnectionHandler(socketserver.BaseRequestHandler):
 def listen():
     HOST, PORT = "localhost", 9999
     server = socketserver.TCPServer((HOST, PORT), ConnectionHandler)
-    print('Server is running on port {}'.format(PORT))
+    print('Bonandos:/# Waiting for data...')
     server.serve_forever()    
 
 if __name__ == '__main__':
