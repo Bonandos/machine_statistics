@@ -19,7 +19,7 @@ def generate_keys(server_path,client_path):
     with open(public_key,'wb') as f:
         f.write(key.publickey().exportKey())
     print('[OK]')
-    print(encrypt('bonando'))
+    # print(encrypt('bonando'))
     
 
 def _zipdir(path, ziph):
