@@ -1,9 +1,9 @@
 .vscode/settings.json
-main/__pycache__/server.cpython-36.pyc
+main/__pycache__/*.*
 client/public_rsa_key.pem
 main/private_rsa_key.pem
-config/__pycache__/utils.cpython-36.pyc
-config/__pycache__/keys.cpython-36.pyc
-packages/*
+config/__pycache__/*.*
+config/__pycache__/*.*
+packages/*.zip
 .gitignore
 .DS_Store
