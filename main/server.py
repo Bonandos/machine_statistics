@@ -1,10 +1,11 @@
 import socketserver
+from config.utils import decrypt
 
 class ConnectionHandler(socketserver.BaseRequestHandler):
     def handle(self):
         self.data = self.request.recv(1024).strip()
         print('{} wrote:'.format(self.client_address[0]))
-        print(self.data)
+        print(decrypt(self.data))
 
 def listen():
     HOST, PORT = "localhost", 9999
