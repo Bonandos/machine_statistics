@@ -36,7 +36,7 @@ def encrypt(str):
 def decrypt(str):
     key = RSA.importKey(open(private_key).read())
     cipher = PKCS1_OAEP.new(key)
-    return cipher.decrypt(str).decode()
+    return cipher.decrypt(str).decode('utf-8')
 
 if __name__ == '__main__':
     print('You should not run this file! Run App.py instead.')   
